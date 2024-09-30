@@ -1,0 +1,11 @@
+[package]
+name = "node-rust-napi-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+napi = { version = "2", features = ["napi2"] }
+napi-derive = "2"
+
+[lib]
+crate-type = ["cdylib"]
